@@ -1,0 +1,51 @@
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active{
+  opacity: 1;
+  transition: opacity 2000ms linear;
+
+}
+
+.fade.fade-enter-done{
+  opacity: 1; 
+}
+
+.css-table1 {
+  font-size: calc(5px + 1vmin);
+  width: 300px;
+  height: 20px;
+  left: 5px;
+  top: 5px;
+  margin-left: 7px;
+}
+
+.css-table2 {
+  font-size: calc(5px + 1vmin);  
+  position: relative;  
+  width: 300px;
+  height: 20px; 
+  background: orange;  
+  top: -100px;        
+  left: 310px; 
+}
+
+.css-comp3 {
+opacity: 0; 
+
+}

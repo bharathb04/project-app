@@ -1,0 +1,9 @@
+
+
+ constructor(props) {
+        super(props);
+        this.state = {
+            projName: null,
+            propKey: null,
+            propValue: null,
+        }
