@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bharathb04/project-app/precache-manifest.8c2bfeb15b6834ba3be4bd1059dec20d.js"
+  "/project-app/precache-manifest.ff92fa4c78209aadf3751b85b895d5ca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/bharathb04/project-app/index.html", {
+workbox.routing.registerNavigationRoute("/project-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
